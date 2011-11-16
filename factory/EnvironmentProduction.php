@@ -5,7 +5,7 @@ class EnvironmentProduction extends AbstractEnvironment {
 	}
 	
 	function setConf( $features ) {
-		$this->conf     = "Define the production environment...";
+		$this->conf     = "This is PROD... be careful\n-----\n";
 		$this->features = $features;
 	}
 }

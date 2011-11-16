@@ -5,7 +5,7 @@ class EnvironmentDevelopment extends AbstractEnvironment {
 	}
 	
 	function setConf( $features ) {
-		$this->conf     = "Define the development environment...";
+		$this->conf     = "DEV environment\n-----\n";
 		$this->features = $features;
 	}
 }

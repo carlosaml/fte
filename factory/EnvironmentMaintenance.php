@@ -5,7 +5,7 @@ class EnvironmentMaintenance extends AbstractEnvironment {
 	}
 	
 	function setConf( $features ) {
-		$this->conf     = "System on Maintenance... Wait for news :))";
+		$this->conf     = "MAINTENANCE... no donut for you\n-----\n";
 		$this->features = $features;
 	}
 }

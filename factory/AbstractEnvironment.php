@@ -21,7 +21,7 @@ abstract class AbstractEnvironment {
 	
 	function listFeatures() {
 		foreach( $this->features as $feature ) 
-			echo "<br>- ".$feature['option']." (toggle = ".$feature['toggle'].")";
+			echo "- ".$feature['option']." (toggle = ".$feature['toggle'].")\n";
 	}
 }
 ?>
