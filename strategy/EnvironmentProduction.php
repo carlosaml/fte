@@ -1,7 +1,7 @@
 <?php
 class EnvironmentProduction extends Environment {
 	function setConf( $features ) {
-		$this->conf     = "Define the production environment...";
+		$this->conf     = "HOT STUFF! Be careful!\n-----\n";
 		$this->features = $features;
 	}
 }

@@ -16,7 +16,7 @@ abstract class Environment implements EnvironmentStrategy {
 	
 	function listFeatures() {
 	    foreach( $this->getFeatures() as $feature ) 
-			echo "<br>- ".$feature['option']." (toggle = ".$feature['toggle'].")";
+			echo "- ".$feature['option']." (toggle = ".$feature['toggle'].")\n";
 	}
 }
 ?>
